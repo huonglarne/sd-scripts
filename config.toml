@@ -1,0 +1,4 @@
+pretrained_model_name_or_path = "stablediffusionapi/realistic-vision-51"
+enable_bucket = true
+
+dataset_config = "dataset.toml"

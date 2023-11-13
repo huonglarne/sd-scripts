@@ -1,0 +1,10 @@
+[general]
+enable_bucket = true                        # Whether to use Aspect Ratio Bucketing
+
+[[datasets]]
+resolution = 512                            # Training resolution
+batch_size = 8                              # Batch size
+
+  [[datasets.subsets]]
+  image_dir = 'dog'                     # Specify the folder containing the training images
+  num_repeats = 10                          # Number of repetitions for training images
